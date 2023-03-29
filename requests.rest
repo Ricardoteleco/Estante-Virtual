@@ -1,0 +1,10 @@
+### Criar Competição
+
+POST  http://localhost:3003/competition/createCompetition
+Content-Type: application/json
+
+{
+    "name": "100",
+    "start": "2023/03/29",
+    "end": "2023/03/30"
+}
